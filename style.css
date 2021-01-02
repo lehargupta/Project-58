@@ -13,6 +13,18 @@ body {
     cursor: pointer;
 }
 
+#mywork {
+    background-color: coral;
+    height: auto;
+    width: 100%;
+    color: brown;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -23,8 +35,8 @@ a {
 
 .links {
     float: left;
-    color:rosybrown;
-        font-family: monospace;
+
+    font-family: monospace;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 8px;
@@ -73,7 +85,7 @@ h2 {
     font-weight: 300;
     line-height: 1.2;
     font-family: Langar;
-    color:forestgreen;
+    color: forestgreen;
 }
 
 h1 {
@@ -106,13 +118,14 @@ p {
     font-size: 34px;
     line-height: 1.2;
     font-family: Dancing Script;
-color:gold;
+    color: gold;
 }
 
 #b {
     padding: 50px;
     text-align: center;
-
+background: linear-gradient(#345995 0%, #03CEA4  100%);
+  
 }
 
 h3 {
@@ -167,24 +180,132 @@ h3 {
     border-radius: 100px;
     color: tomato;
 }
-#pp{
-    color:blueviolet;
-   font-size: 40px;
-    font-style:italic;
+
+#pp {
+    color: blueviolet;
+    font-size: 40px;
+    font-style: italic;
+
+}
+
+#ppp {
+    font-size: 40px;
+    font-style: italic;
+    color: orangered;
+}
+
+#ab {
+    color: darkgoldenrod;
+    font-size: 40px;
+    font-family:Warnes;
+}
+
+#pppp {
+    font-size: 40px;
+    color: orange;
+    font-family: Irish Grover;
+}
+
+h4 {
+    color: chocolate;
+    font-size: 56px;
+    font-weight: 300px;
+    font-family: Special Elite;
+}
+
+#ts {
+    color: darkorange;
+    font-size: 50px;
+    font-family:Kirang Haerang;
+    font-weight: 300px;
+}
+
+#yu {
+    color: darkturquoise;
+    font-size: 40px;
     
+    font-family: Hanalei;
 }
-#ppp{
- font-size: 40px;
-    font-style:italic;
-    color:orangered;
+
+#jp {
+    color: firebrick;
+    font-size: 40px;
+    font-weight: 500px;
+    font-family: Niconne;
 }
-#ab{
-    color:darkgoldenrod;
-    font-size:40px;
-    font-family:cursive;
+
+#lo {
+    color: firebrick;
+    font-weight: 500px;
+    font-size: 40px;
+    font-family: Niconne;
 }
-#pppp{
-   font-size:40px;
-    color:orchid;
-    font-style:normal;
+
+#lp {
+    color: firebrick;
+    font-weight: 500px;
+    font-size: 40px;
+    font-family: Niconne;
+}
+
+#tyu {
+    color: darkslategrey;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: Cookie;
+}
+
+#alberteinstein {
+    color: skyblue;
+    font-family: Mystery Quest;
+    font-size: 52px;
+    font-weight: 200px;
+}
+
+#corona {
+    font-family: Supermercado One;
+    font-size: 52px;
+    color: palegreen;
+    font-weight: 200px;
+}
+
+#my_chatbot {
+    font-weight: 200px;
+    font-size: 52px;
+    color: olive;
+    font-family: Bonbon;
+}
+
+#cb {
+    color: yellow;
+    font-size: 56px;
+    font-weight: 300px;
+    font-family: Sancreek;
+    background-color: mediumvioletred;
+    border-style: dotted;
+    border-color: salmon;
+    border-width: 7px;
+}
+
+#games {
+    font-size: 56px;
+    font-weight: 300px;
+    border-style: dotted;
+    border-width: 7px;
+    font-family: Mr Bedfort;
+    border-color: cornflowerblue;
+    background-color: darkred;
+    color: tomato;
+
+}
+#apps{
+  border-width: 7px;  
+    font-size: 56px;
+    font-weight: 300px;
+     border-style: dotted;
+    font-family:Sevillana;
+    color:darkorange;
+    background-color:mediumspringgreen;
+    border-color:indigo;
+
 }
