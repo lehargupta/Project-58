@@ -2,51 +2,87 @@ body {
     margin: 0;
     padding-top: 800px;
     text-align: center;
+    background-color:turquoise;
 }
+
 
 .menu {
     list-style: none;
     position: fixed;
-    top: 10px;
-    right: 30px;
+    top: 0px;
+    margin-top: 0px;
     z-index: 10;
     cursor: pointer;
+    width: 100%;
+    background-color: snow;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+#contact {
+    background-color: lightcyan;
+}
+
+#contact h3 {
+    display: inline;
 }
 
 #mywork {
-    background-color: coral;
+    background :linear-gradient(#E08E45 0%, #BDF7B7 100%);
     height: auto;
     width: 100%;
     color: brown;
 }
-
+#favourite_books{
+background: linear-gradient(#E0CA3C 0%, #ED6A5A 100%);
+}
 img:hover {
     transform: scale(0.9);
+}
+#inspiration{
+    background: linear-gradient(#FE938C 0%, #008DD5 100%);
 }
 
 
 html {
-    scroll-behavior: smooth;
+   scroll-behavior: smooth;
+}
+#videos{
+     background: linear-gradient(#36C9C6 0%, #ED6A5A 100%);
+    
+}
+#favourite_books h3{
+    color:darkviolet;
+    background-color:aquamarine;
+    border-color:green;
+    border-width:7px;
+    border-radius:50px;
+    color:midnightblue;
+    border-style:solid;
+    font-family:monospace;
 }
 
 a {
     text-decoration: none;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color:goldenrod;
 }
 
 .links {
-    float: left;
-
+    display: inline;
     font-family: monospace;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
-    font-size: 20px;
-
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 27px;
 }
 
 .links:hover {
-    background-color: aqua;
+    background-color:navajowhite;
+    font-size:30px;
+    text-decoration: underline;
 }
 
 .pic {
@@ -71,6 +107,7 @@ a {
     bottom: :0;
     left: 0;
     right: 0;
+    z-index:9;
 }
 
 .parallax {
@@ -124,8 +161,8 @@ p {
 #b {
     padding: 50px;
     text-align: center;
-background: linear-gradient(#345995 0%, #03CEA4  100%);
-  
+    background: linear-gradient(#345995 0%, #03CEA4 100%);
+
 }
 
 h3 {
@@ -197,7 +234,7 @@ h3 {
 #ab {
     color: darkgoldenrod;
     font-size: 40px;
-    font-family:Warnes;
+    font-family: Warnes;
 }
 
 #pppp {
@@ -216,14 +253,14 @@ h4 {
 #ts {
     color: darkorange;
     font-size: 50px;
-    font-family:Kirang Haerang;
+    font-family: Kirang Haerang;
     font-weight: 300px;
 }
 
 #yu {
     color: darkturquoise;
     font-size: 40px;
-    
+
     font-family: Hanalei;
 }
 
@@ -298,14 +335,15 @@ h4 {
     color: tomato;
 
 }
-#apps{
-  border-width: 7px;  
+
+#apps {
+    border-width: 7px;
     font-size: 56px;
     font-weight: 300px;
-     border-style: dotted;
-    font-family:Sevillana;
-    color:darkorange;
-    background-color:mediumspringgreen;
-    border-color:indigo;
+    border-style: dotted;
+    font-family: Sevillana;
+    color: darkorange;
+    background-color: mediumspringgreen;
+    border-color: indigo;
 
 }
