@@ -5,20 +5,59 @@ body {
     background-color:turquoise;
 }
 #mycarousel{
-    background-color:red;
+    background-color:firebrick;
 }
 #mycarousel img{
     height:300px;
     margin-top:30px;
     
 }
+#mycarousels{
+    background-color:sandybrown;
+    
+}
+#FavouriteCartoon{
+    color:forestgreen;
+}
 .carousel-inner p{
     margin-bottom:15px;
     margin-top:15px;
     color:white;
-    font-size:20px;
+    font-size:36px;
+    color:darkorange;
+    font-family:monospace;
+}
+.glyphicon glyphicon-chevron right{
+    color:black;
+    
+}
+#mycarousels img{
+    height:300px;
+   
+}
+#ftg{
+    color:darkcyan;
+    font-size:34px;
+    font-family:cursive;
 }
 
+.container h5{
+    color:darkcyan;
+    font-size:23px;
+    font-family:cursive;
+}
+.container h2{
+    font-size:34px;
+    color:gold;
+    font-family:cursive;
+}
+
+#jiko{
+  color: chocolate;
+    font-size: 56px;
+    font-weight: 300px;
+    font-family: Special Elite;  
+}
 
 .menu {
     list-style: none;
@@ -36,8 +75,14 @@ body {
 }
 
 #contact {
-    background-color: lightcyan;
+    background-color:lightcyan;
+  
 }
+#contact p{
+    display:inline;
+}
+    
+
 
 #contact h3 {
     display: inline;
@@ -51,9 +96,10 @@ body {
 }
 #favourite_books{
 background: linear-gradient(#E0CA3C 0%, #ED6A5A 100%);
+text-align:center;
 }
 img:hover {
-    transform: scale(0.9);
+transform: scale(0.9);
 }
 #inspiration{
     background: linear-gradient(#FE938C 0%, #008DD5 100%);
@@ -206,6 +252,7 @@ h3 {
     background-color: hotpink;
     border-radius: 100px;
     border-color: navy;
+   width:45px;
 }
 
 #f {
@@ -258,10 +305,7 @@ h3 {
 }
 
 h4 {
-    color: chocolate;
-    font-size: 56px;
-    font-weight: 300px;
-    font-family: Special Elite;
+    
 }
 
 #ts {
